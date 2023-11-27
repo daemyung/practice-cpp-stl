@@ -13,3 +13,5 @@ target_link_libraries(format fmt)
 add_executable(compile-time-vector-and-string src/compile-time-vector-and-string.cpp)
 
 add_executable(safe-compare src/safe-compare.cpp)
+
+add_executable(spaceship-operator src/spaceship-operator.cpp)
