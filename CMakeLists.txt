@@ -15,3 +15,6 @@ add_executable(compile-time-vector-and-string src/compile-time-vector-and-string
 add_executable(safe-compare src/safe-compare.cpp)
 
 add_executable(spaceship-operator src/spaceship-operator.cpp)
+
+add_executable(version src/version.cpp)
+target_link_libraries(version fmt)
