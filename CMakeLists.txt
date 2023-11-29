@@ -18,3 +18,5 @@ add_executable(spaceship-operator src/spaceship-operator.cpp)
 
 add_executable(version src/version.cpp)
 target_link_libraries(version fmt)
+
+add_executable(concepts src/concepts.cpp)
